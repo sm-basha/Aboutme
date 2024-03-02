@@ -129,7 +129,7 @@
                             <div class="col">
                                 <p class="fw-bold text-uppercase"> {{ e.degree }} </p>
                                 <p class="fw-bold text-uppercase">
-                                    {{ e.school }}, {{ e.graduationDate }}
+                                    {{ e.school }} {{ e.graduationDate }}
                                 </p>
                                 <p>{{ e.description }}</p>
                             </div>
@@ -197,11 +197,11 @@
                             <div class="col">
                                 <p class="text-uppercase fw-bold position-relative">
                                     {{ employment.jobTitle }}
-                                    <span>&nbsp;|&nbsp;{{ employment.startDate }} - {{
+                                    <span>&nbsp; <i>||</i>&nbsp;{{ employment.startDate }} - {{
                                         employment.endDate }}</span>
                                 </p>
-                                <p class="text-lowercase fst-italic fw-bold">
-                                    {{ employment.employer }}, {{ employment.city }}
+                                <p class="fst-italic fw-bold">
+                                    {{ employment.employer }}, &nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;  {{ employment.city }}
                                 </p>
                                 <p class="mb-0" v-for="achievement in employment.achievements">
                                     • {{ achievement }}
