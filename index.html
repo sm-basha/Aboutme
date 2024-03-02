@@ -103,6 +103,21 @@
                             </div>
                         </div>
                         <div class="row mt-5 me-5">
+                            <div class="col p-0">
+                                <p class="title">Skills</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <ul class="ms-2">
+                                    <li class="pb-2" v-for="skill in resume.skills">
+                                        {{ skill }}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-5 me-5">
                             <div class="col">
                                 <p class="title">Education</p>
                             </div>
@@ -131,20 +146,6 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="row mt-5 me-5">
-                            <div class="col p-0">
-                                <p class="title">Skills</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <ul class="ms-2">
-                                    <li class="pb-2" v-for="skill in resume.skills">
-                                        {{ skill }}
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                         <div class="row mt-5 me-5">
                             <div class="col p-0">
                                 <p class="title">Languages</p>
