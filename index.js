@@ -5,7 +5,7 @@ const resumeEN = {
   photo: 'sm-pic.jpg',
   firstName: 'SHAIK ',
   lastName: 'MAHABOOB BASHA',
-  jobTitle: 'IT Administrator',
+  jobTitle: 'IT Administrator/ DevOps Engineer',
   city: 'Hyderabad',
   postalCode: '500032',
   country: 'India',
@@ -56,8 +56,22 @@ const resumeEN = {
     'Cloud Security'
   ],
   languages: ['English ', 'Hindi', 'Telugu'],
-  professionalSummary: `Having 10 years of experience in Systems and Networking, including hands-on experience in providing Hardware & Network support, End-point Security, and analysis of hardware & network failures.`,
+  professionalSummary: `Having 11 years of experience in IT Administration, including 3+ years in DevOps with proficient in architecting and executing automated CI/CD pipelines, cutting deployment time and increasing frequency. Skilled in AWS, Azure, infrastructure as code, and deploying monitoring systems.`,
   employmentHistory: [
+    {
+      jobTitle: 'Sr. System & Network Administrator',
+      startDate: 'Feb 2024',
+      endDate: 'till date',
+      employer: 'NeoLync Electronics Pvt Ltd',
+      city: 'Hyderabad',
+      achievements: [
+        'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',
+        'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 63% of quarterly bills.',
+        'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.',
+        'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
+        
+      ]
+    },
     {
       jobTitle: 'System & Network Administrator',
       startDate: 'May 2016',
@@ -65,21 +79,22 @@ const resumeEN = {
       employer: 'NowFloats Technologies Ltd',
       city: 'Hyderabad',
       achievements: [
-
-        'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',
-        'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 63% of quarterly bills.',
-        'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.',
-        'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
-        'Conﬁguring, Managing, and Auditing software like Google Workspace/G-suit, Abode, Zoom, Skype Manager Account. ',
+        'Built Docker Images and managed image distribution to Docker registry and AWS ECR, deploying to production clusters on AWS EKS.',
+        'Managed source code version tagging and prepared release notes for efficient build and release processes.',
+        'Developed Jenkins pipelines (Pipeline As Code) for automated Builds & Deployments to Kubernetes Cluster (EKS).',
+        'Customized Jenkins pipelines for project-specific builds and deployments across different environments (Dev, QA, Prod).',
+        'Configured database parameters during environment deployments and troubleshooted build issues in collaboration with development teams.',
+        'Orchestrated deployment of 3-tier architecture infrastructure on AWS Cloud utilizing Terraform.',
+        'Developed CI/CD workflows with cloud platform integrations using Git, GitHub, Sonar, Nexus, Terraform, Docker, and Kubernetes.',
+        'Implemented and optimized Jenkins CI/CD pipelines, integrating Git & GitHub for seamless deployment.',
+        'Containerized applications with Docker for consistent deployment and scalability.',
+        'Implemented and managed PostgreSQL database for efficient data storage, high performance, and security.',
+        'Integrated a robust backend API with PostgreSQL database to facilitate smooth data interactions and system functionality.',
+        'Configured Prometheus and Grafana for real-time monitoring and performance insights.',
+        'Documented processes, configurations, and best practices for future reference.',
         'Responsible for complete IT infra including the Internet, UPS, Software, workstations, Computers, Printers, Access Points and other peripherals for all 54 Pan India branches.',
-        'Configuration, Monitoring of Routers, Switches, WiFi Access Points, Access control, etc.',
-        'Conﬁguring, troubleshooting, tagging, and labeling laptops, Desktops, and workstations with various Operating Systems like Windows, MAC, Ubuntu, and Linux.',
-        'Installation, and administrating IOT devices like CCTV Video Surveillance, Bio-metric , administrating Video Conference Solutions for our 25 Pan India branches.',
-        'Monitoring and Maintaining other computer peripheral devices such as Network & desktop printers, scanners, and access control, and solving problems if arise.',
-        'Patching and upgrading hardware and software as per the organization’s requirement.',
-        'Analyzing the performance of the environment & providing recommendations for improvement.',
-        'Research and recommend an innovative solution based on the requirements.'
-
+        'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
+        'Conﬁguring, Managing, and Auditing software like Google Workspace/G-suit, Abode, Zoom, Skype Manager Account, Firewalls, CCTV Video Surveillance, Bio-metric Access Control, ',
       ]
     }, {
       jobTitle: 'System & Network Executive',
