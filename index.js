@@ -44,19 +44,19 @@ const resumeEN = {
     'IT Administration',
     'Asset Management',
     'Vendor Management',
+    'Sophos End-point Security',
+    'Google Workspace',
+    'Cloud Security',
     'AWS Devops',
-    'Azure Devops',
+    'Jenkins',
     'Docker',
     'Kubernates',
-    'Jenkins',
     'Terraform',
-    'Sophos End-point Security',
-    'Windows; Linux; Mac',
-    'Google Workspace',
-    'Cloud Security'
+    'Azure Devops',
+    'Windows; Linux; Mac'
   ],
   languages: ['English ', 'Hindi', 'Telugu'],
-  professionalSummary: `Having 11 years of experience in IT Administration, including 3+ years in DevOps with proficient in architecting and executing automated CI/CD pipelines, cutting deployment time and increasing frequency. Skilled in AWS, Azure, infrastructure as code, and deploying monitoring systems.`,
+  professionalSummary: `Having 11 years of experience in IT Administration, including 3+ years in DevOps with proficiency in architecting and executing automated CI/CD pipelines, by cutting deployment time and increasing the frequency. Skilled in AWS, Azure, infrastructure as code, and deploying monitoring systems.`,
   employmentHistory: [
     {
       jobTitle: 'Sr. System & Network Administrator',
@@ -66,9 +66,10 @@ const resumeEN = {
       city: 'Hyderabad',
       achievements: [
         'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',
-        'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 63% of quarterly bills.',
-        'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.',
         'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
+        'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 63% of quarterly bills.',
+        'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.'
+        
         
       ]
     },
@@ -79,6 +80,9 @@ const resumeEN = {
       employer: 'NowFloats Technologies Ltd',
       city: 'Hyderabad',
       achievements: [
+        'Responsible for complete IT infra including the Internet, UPS, Software, workstations, Computers, Printers, Access Points and other peripherals for all 54 Pan India branches.',
+        'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
+        'Conﬁguring, Managing, and Auditing software like Google Workspace/G-suit, Abode, Zoom, Skype Manager Account, Firewalls, CCTV Video Surveillance, Bio-metric Access Control, ',
         'Built Docker Images and managed image distribution to Docker registry and AWS ECR, deploying to production clusters on AWS EKS.',
         'Managed source code version tagging and prepared release notes for efficient build and release processes.',
         'Developed Jenkins pipelines (Pipeline As Code) for automated Builds & Deployments to Kubernetes Cluster (EKS).',
@@ -90,11 +94,9 @@ const resumeEN = {
         'Containerized applications with Docker for consistent deployment and scalability.',
         'Implemented and managed PostgreSQL database for efficient data storage, high performance, and security.',
         'Integrated a robust backend API with PostgreSQL database to facilitate smooth data interactions and system functionality.',
-        'Configured Prometheus and Grafana for real-time monitoring and performance insights.',
-        'Documented processes, configurations, and best practices for future reference.',
-        'Responsible for complete IT infra including the Internet, UPS, Software, workstations, Computers, Printers, Access Points and other peripherals for all 54 Pan India branches.',
-        'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
-        'Conﬁguring, Managing, and Auditing software like Google Workspace/G-suit, Abode, Zoom, Skype Manager Account, Firewalls, CCTV Video Surveillance, Bio-metric Access Control, ',
+        'Configured Prometheus & Grafana for real-time monitoring and performance insights.',
+        'Documented processes, configurations, and best practices for future reference.'
+
       ]
     }, {
       jobTitle: 'System & Network Executive',
@@ -105,7 +107,7 @@ const resumeEN = {
       achievements: [
         'Installation of the wired and wireless network throughout the company.',
         'Installation, administering, and troubleshooting of Desktops, laptops, workstations with various Operating Systems and Server-based Antivirus.',
-        'Installation, troubleshooting of various Designing software like Pro-Engineer, Creo 3.0.',
+        'Installation, troubleshooting of various Designing software like Pro-Engineer, Creo3.0.',
         'Installing, troubleshooting, backup of various Mailing applications like MS Outlook, Thunderbird & Windows live mail.',
         'Periodic backups of Systems, ERP’s database, biometric, remote support to end-user/clients.',
         'Performing preventive maintenance in accordance with department policies.',
