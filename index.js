@@ -2,7 +2,7 @@
  * Resume/CV template created with Bootstrap 5 by @vmoratog and @jdnichollsc
  */
 const resumeEN = {
-  photo: 'sm-pic.jpg',
+  photo: 'sm-pic.jpg', 
   firstName: 'SHAIK ',
   lastName: 'MAHABOOB BASHA',
   jobTitle: 'IT Administrator/ DevOps Engineer',
@@ -66,11 +66,17 @@ const resumeEN = {
       city: 'Hyderabad',
       achievements: [
         'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',
-        'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
-        'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 63% of quarterly bills.',
+        
+        'Manage and optimize platform services including compute, storage, network, load balancing, DNS, VMware, and Azure environments.',
+        'Implement and maintain robust security practices for managing and storing secrets, tokens, certificates, and other sensitive data.',
+        'Harden and secure OS images to protect against vulnerabilities and ensure compliance with security standards.',
+        'Uses PowerShell for automation and configuration tasks within the Azure environment.',
+        'Administer and maintaining Active Directory services, ensuring secure and efficient directory operations.',
+        'Designed and managed Virtual Networks (VNET) and Virtual Private Clouds (VPC) for seamless connectivity and data flow.',
+        'Collaborate with development, operations, and security teams to ensure seamless integration and continuous delivery of applications.',
+        'Using Terraform for infrastructure as code, automating cloud infrastructure deployment and management.',
+        'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 33% of quarterly bills.',
         'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.'
-        
-        
       ]
     },
     {
@@ -80,21 +86,18 @@ const resumeEN = {
       employer: 'NowFloats Technologies Ltd',
       city: 'Hyderabad',
       achievements: [
-        'Responsible for complete IT infra including the Internet, UPS, Software, workstations, Computers, Printers, Access Points and other peripherals for all 54 Pan India branches.',
         'Responsible and involved in all IT and related Audits including periodic reviewing of Assets and Software Licenses, Access Review as part of Risk Management.',
         'Conﬁguring, Managing, and Auditing software like Google Workspace/G-suit, Abode, Zoom, Skype Manager Account, Firewalls, CCTV Video Surveillance, Bio-metric Access Control, ',
         'Built Docker Images and managed image distribution to Docker registry and AWS ECR, deploying to production clusters on AWS EKS.',
         'Managed source code version tagging and prepared release notes for efficient build and release processes.',
-        'Developed Jenkins pipelines (Pipeline As Code) for automated Builds & Deployments to Kubernetes Cluster (EKS).',
+        'Set up and maintaining SFTP servers for secure file transfers.',
+        'Implemented encryption and decryption setups to protect sensitive data.',
         'Customized Jenkins pipelines for project-specific builds and deployments across different environments (Dev, QA, Prod).',
         'Configured database parameters during environment deployments and troubleshooted build issues in collaboration with development teams.',
         'Orchestrated deployment of 3-tier architecture infrastructure on AWS Cloud utilizing Terraform.',
         'Developed CI/CD workflows with cloud platform integrations using Git, GitHub, Sonar, Nexus, Terraform, Docker, and Kubernetes.',
         'Implemented and optimized Jenkins CI/CD pipelines, integrating Git & GitHub for seamless deployment.',
         'Containerized applications with Docker for consistent deployment and scalability.',
-        'Implemented and managed PostgreSQL database for efficient data storage, high performance, and security.',
-        'Integrated a robust backend API with PostgreSQL database to facilitate smooth data interactions and system functionality.',
-        'Configured Prometheus & Grafana for real-time monitoring and performance insights.',
         'Documented processes, configurations, and best practices for future reference.'
 
       ]
@@ -155,29 +158,29 @@ const resumeEN = {
 }
 
 const resumeES = {
-  photo: 'https://awsbucket-emmanuelgaviria.s3.amazonaws.com/profile.jpeg',
-  firstName: 'Juan Emmanuel',
-  lastName: 'Gaviria López',
-  jobTitle: 'Desarrollador Full-Stack ',
-  city: 'Medellin',
-  postalCode: '051052',
-  country: 'Colombia',
-  phone: '+57 313 602 9181',
-  email: 'emmanuel.gaviria.25@gmail.com',
-  education: [
-    {
-      school: 'Institución Universitaria Politécnico Grancolombiano',
-      degree: 'En proceso',
-      graduationDate: 'Actualmente',
-      description: 'Ingenieria de Software'
-    },
-    {
-      school: 'SENA: Servicio Nacional de Aprendizaje',
-      degree: 'Graduado',
-      graduationDate: '2016',
-      description: 'Tecnologo en Analisis y desarrollo en sistemas de información'
-    }
-  ],
+  // photo: 'https://awsbucket-emmanuelgaviria.s3.amazonaws.com/profile.jpeg',
+  // firstName: 'Juan Emmanuel',
+  // lastName: 'Gaviria López',
+  // jobTitle: 'Desarrollador Full-Stack ',
+  // city: 'Medellin',
+  // postalCode: '051052',
+  // country: 'Colombia',
+  // phone: '+57 313 602 9181',
+  // email: 'emmanuel.gaviria.25@gmail.com',
+  // education: [
+  //   {
+  //     school: 'Institución Universitaria Politécnico Grancolombiano',
+  //     degree: 'En proceso',
+  //     graduationDate: 'Actualmente',
+  //     description: 'Ingenieria de Software'
+  //   },
+  //   {
+  //     school: 'SENA: Servicio Nacional de Aprendizaje',
+  //     degree: 'Graduado',
+  //     graduationDate: '2016',
+  //     description: 'Tecnologo en Analisis y desarrollo en sistemas de información'
+  //   }
+  // ],
   links: [
     {
       label: 'Perfil GitHub',
