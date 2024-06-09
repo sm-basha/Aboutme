@@ -65,8 +65,7 @@ const resumeEN = {
       employer: 'NeoLync Electronics Pvt Ltd',
       city: 'Hyderabad',
       achievements: [
-        'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',
-        
+        'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',        
         'Manage and optimize platform services including compute, storage, network, load balancing, DNS, VMware, and Azure environments.',
         'Implement and maintain robust security practices for managing and storing secrets, tokens, certificates, and other sensitive data.',
         'Harden and secure OS images to protect against vulnerabilities and ensure compliance with security standards.',
@@ -76,6 +75,7 @@ const resumeEN = {
         'Collaborate with development, operations, and security teams to ensure seamless integration and continuous delivery of applications.',
         'Using Terraform for infrastructure as code, automating cloud infrastructure deployment and management.',
         'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 33% of quarterly bills.',
+        'Governance cost optiomization, security of the AWS resources using Lamda functions',
         'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.'
       ]
     },
