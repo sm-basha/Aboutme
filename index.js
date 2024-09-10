@@ -5,7 +5,7 @@ const resumeEN = {
   photo: 'sm-pic.jpg', 
   firstName: 'SHAIK ',
   lastName: 'MAHABOOB BASHA',
-  jobTitle: 'IT Administrator/ DevOps Engineer',
+  jobTitle: 'IT Administrator/ Cloud Administrator',
   city: 'Hyderabad',
   postalCode: '500032',
   country: 'India',
@@ -46,17 +46,17 @@ const resumeEN = {
     'Vendor Management',
     'Sophos End-point Security',
     'Google Workspace',
+    'O365 Administration',
     'Cloud Security',
     'AWS Devops',
     'Jenkins',
     'Docker',
-    'Kubernates',
     'Terraform',
     'Azure Devops',
     'Windows; Linux; Mac'
   ],
   languages: ['English ', 'Hindi', 'Telugu'],
-  professionalSummary: `Having 11 years of experience in IT Administration, including 3+ years in DevOps with proficiency in architecting and executing automated CI/CD pipelines, by cutting deployment time and increasing the frequency. Skilled in AWS, Azure, infrastructure as code, and deploying monitoring systems.`,
+  professionalSummary: `Having 11 years of experience in IT Administration, including 3+ years in Cloud Administration with proficiency in architecting and executing automated CI/CD pipelines. Skilled in AWS, Azure, infrastructure as code, and deploying monitoring systems.`,
   employmentHistory: [
     {
       jobTitle: 'Sr. System & Network Administrator',
@@ -65,18 +65,17 @@ const resumeEN = {
       employer: 'NeoLync Electronics Pvt Ltd',
       city: 'Hyderabad',
       achievements: [
-        'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',        
-        'Manage and optimize platform services including compute, storage, network, load balancing, DNS, VMware, and Azure environments.',
+        'IT Administration, Asset Management, Vendor development and negotiation. Worked closely with vendors to slash company costs by 25%.',
+        'Conﬁguring, Managing, and Auditing cloud infra and software like O365, Teams, End-point Security, Firewalls, CCTV Video Surveillance, VC, Bio-metric, Access Control for all locations ',
+        'Successfully deployed a highly available open source ticketing-tool which reduced the IT budget to 20%.',
+        'Manage and optimize platform services including compute, storage, network, load balancing, DNS, and Azure environments.',
         'Implement and maintain robust security practices for managing and storing secrets, tokens, certificates, and other sensitive data.',
-        'Harden and secure OS images to protect against vulnerabilities and ensure compliance with security standards.',
-        'Uses PowerShell for automation and configuration tasks within the Azure environment.',
+        'Uses shell-scripting for automation and configuration tasks within the Azure environment.',
         'Administer and maintaining Active Directory services, ensuring secure and efficient directory operations.',
         'Designed and managed Virtual Networks (VNET) and Virtual Private Clouds (VPC) for seamless connectivity and data flow.',
         'Collaborate with development, operations, and security teams to ensure seamless integration and continuous delivery of applications.',
-        'Using Terraform for infrastructure as code, automating cloud infrastructure deployment and management.',
         'Reviewed all AWS accounts and environments to avoid additional costs, decreasing 33% of quarterly bills.',
-        'Governance cost optiomization, security of the AWS resources using Lamda functions',
-        'Successfully deployed a highly available application stack on AWS utilizing EC2 autoscaling groups which enabled increased customer engagement by 20%.'
+        'Providing user support and training  for all company employees.'
       ]
     },
     {
@@ -95,9 +94,10 @@ const resumeEN = {
         'Customized Jenkins pipelines for project-specific builds and deployments across different environments (Dev, QA, Prod).',
         'Configured database parameters during environment deployments and troubleshooted build issues in collaboration with development teams.',
         'Orchestrated deployment of 3-tier architecture infrastructure on AWS Cloud utilizing Terraform.',
-        'Developed CI/CD workflows with cloud platform integrations using Git, GitHub, Sonar, Nexus, Terraform, Docker, and Kubernetes.',
+        'Developed CI/CD workflows with cloud platform integrations using Git, GitHub, Sonar, Nexus, Terraform and Docker.',
         'Implemented and optimized Jenkins CI/CD pipelines, integrating Git & GitHub for seamless deployment.',
         'Containerized applications with Docker for consistent deployment and scalability.',
+        'Helped team with access and infra provisioning in Cloud Migration with keeping security aspects from all sides',
         'Documented processes, configurations, and best practices for future reference.'
 
       ]
